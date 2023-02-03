@@ -143,11 +143,5 @@ h4{
 <div class="container p-5 m-5">
     <h1 class="fw-bold">🍜 Foodhub Vlogs</h1>
     <p>Welcome to Foodhub Vlogs, where you can upload your recipes.</p>
-<<<<<<< HEAD
-    <p>test updating</p>
-=======
-</div>
-   
->>>>>>> 529281ac0b46fabf6b13a982ec874bead91d61b5
 </body>
 </html>
