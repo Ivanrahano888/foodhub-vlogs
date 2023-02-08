@@ -23,8 +23,6 @@ use App\Http\Controllers\HomeController;
         return view('index');
     });  
     
-
-    
 Route::get('/user', [UserController::class, 'index']);
 Route::get('/admin', [AdminController::class, 'index']);
 
