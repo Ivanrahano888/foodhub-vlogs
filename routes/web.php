@@ -1,6 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\HomeController;
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +19,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', function () {
     return view('index');
 });
+=======
+    Route::get('/', function () {
+        return view('index');
+    });  
+    
+
+    
+Route::get('/user', [UserController::class, 'index']);
+Route::get('/admin', [AdminController::class, 'index']);
+
+Route::get('/register', [HomeController::class, 'register']);
+Route::get('/login', [HomeController::class, 'index']);
+Route::get('/home', [HomeController::class, 'index']);
+
+
+>>>>>>> edfa13072f4159bbe4372570fad9c8279e769c68
