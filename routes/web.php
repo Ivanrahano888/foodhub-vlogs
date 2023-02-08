@@ -19,11 +19,6 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-<<<<<<< HEAD
-Route::get('/', function () {
-    return view('index');
-});
-=======
     Route::get('/', function () {
         return view('index');
     });  
@@ -38,4 +33,3 @@ Route::get('/login', [HomeController::class, 'index']);
 Route::get('/home', [HomeController::class, 'index']);
 
 
->>>>>>> edfa13072f4159bbe4372570fad9c8279e769c68
