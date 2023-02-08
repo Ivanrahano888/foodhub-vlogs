@@ -2,9 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\GuestController;
 use App\Http\Controllers\HomeController;
-
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\LoginController;
 
 
 
@@ -23,11 +24,11 @@ use App\Http\Controllers\HomeController;
         return view('index');
     });  
     
-Route::get('/user', [UserController::class, 'index']);
+Route::get('/guest', [GuestController::class, 'index']);
 Route::get('/admin', [AdminController::class, 'index']);
 
-Route::get('/register', [HomeController::class, 'register']);
-Route::get('/login', [HomeController::class, 'index']);
+Route::get('/register', [RegisterController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index']);
 Route::get('/home', [HomeController::class, 'index']);
 
 
