@@ -123,27 +123,21 @@ h4{
             <div class="col">
                 <img src="siram-logo.png" style="width:150px ; height: 100px; margin-top: -30px;">
             </div>
-            
             <div class="col border border-1 rounded-pill">
                 <div class="searchbar">
                     <input type="text" class="form-control" placeholder="Search.." >
                     <i class=" fa fa-search mt-2" type="submit"></i>
                 </div>
             </div>
-            
         </div>
     </div>
-
     <h1> SIRAM</h1>
     <h4>Hundreds of flavors under one site.</h4>
     <div class="col d-flex justify-content-center">
-        <a type="button" class="signupbutton btn" href="{{ ('HomeController.php') }}">START</a>
-        <button onclick="location.href='{{ url('home') }}'">Start</button>
+        <a type="button" class="signupbutton btn" onclick="location.href='{{ url('home') }}'">START</a>
     </div>
 </header>
-<div class="container p-5 m-5">
-    <h1 class="fw-bold">🍜 Foodhub Vlogs</h1>
-    <p>Welcome to Foodhub Vlogs, where you can upload your recipes.</p>
+
 
 </body>
 </html>
