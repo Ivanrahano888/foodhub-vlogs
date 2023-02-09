@@ -121,7 +121,7 @@ h4{
     <div class="container-fluid">
         <div class="row p-3 ">
             <div class="col">
-                <img src="siram-logo.png" style="width:150px ; height: 100px; margin-top: -30px;">
+                <!--<img src="siram-logo.png" style="width:150px ; height: 100px; margin-top: -30px;"> -->
             </div>
             <div class="col border border-1 rounded-pill">
                 <div class="searchbar">
