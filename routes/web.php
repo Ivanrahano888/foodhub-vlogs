@@ -20,11 +20,10 @@ use App\Http\Controllers\LoginController;
 |
 */
 
-<<<<<<< HEAD
 Route::get('/', function () {
     return view('index');
 });
-=======
+
     Route::get('/', function () {
         return view('index');
     });  
@@ -37,4 +36,4 @@ Route::get('/login', [LoginController::class, 'index']);
 Route::get('/home', [HomeController::class, 'index']);
 
 
->>>>>>> edfa13072f4159bbe4372570fad9c8279e769c68
+
