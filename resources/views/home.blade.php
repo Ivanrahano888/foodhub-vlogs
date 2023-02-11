@@ -9,7 +9,7 @@
 <body>
     <div class="container p-5 m-5">
         <h1 class="fw-bold">🍜 Foodhub Vlogs</h1>
-        <p>This is home page</p>
+        <p>You are in Home Page</p>
 
     <button onclick="location.href='{{ url('about') }}'">About our Team</button>
     <button onclick="location.href='{{ url('explore') }}'">Explore</button>
