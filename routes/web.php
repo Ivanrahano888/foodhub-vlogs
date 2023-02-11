@@ -20,6 +20,7 @@ use App\Http\Controllers\ExploreController;
 |
 */
 
+
     Route::get('/', function () {
         return view('index');
     });  
@@ -31,5 +32,10 @@ Route::get('/register', [RegisterController::class, 'index']);
 Route::get('/login', [LoginController::class, 'index']);
 Route::get('/home', [HomeController::class, 'index']);
 
+
 Route::get('/explore', [ExploreController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
+
+
+
+
