@@ -6,8 +6,8 @@ use App\Http\Controllers\GuestController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
-
-
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ExploreController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,11 +26,16 @@ use App\Http\Controllers\LoginController;
     });  
     
 Route::get('/guest', [GuestController::class, 'index']);
-Route::get('/admin', [AdminController::class, 'index']);
+Route::get('/admin', [AdminController::class, 'admin']);
 
 Route::get('/register', [RegisterController::class, 'index']);
 Route::get('/login', [LoginController::class, 'index']);
 Route::get('/home', [HomeController::class, 'index']);
+
+
+Route::get('/explore', [ExploreController::class, 'index']);
+Route::get('/about', [AboutController::class, 'index']);
+
 
 
 
