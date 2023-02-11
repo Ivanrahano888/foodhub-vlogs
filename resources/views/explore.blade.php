@@ -9,6 +9,6 @@
 <body>
 <div class="container p-5 m-5">
     <h1 class="fw-bold">🍜 Foodhub Vlogs</h1>
-    <p>You are in Explore page!</p>
+    <p>Explore your cravings!</p>
 </body>
 </html>
