@@ -17,3 +17,4 @@
     <button onclick="location.href='{{ url('login') }}'">Login</button>
 </body>
 </html>
+
