@@ -21,6 +21,7 @@ use App\Http\Controllers\FileUploadController;
 |
 */
 
+
     Route::get('/', function () {
         return view('index');
     });  
@@ -32,7 +33,17 @@ Route::get('/register', [RegisterController::class, 'register']);
 Route::get('/login', [LoginController::class, 'login']);
 Route::get('/home', [HomeController::class, 'home']);
 
+<<<<<<< HEAD
 Route::get('/explore', [ExploreController::class, 'explore']);
 Route::get('/about', [AboutController::class, 'about']);
 Route::get('video-upload', [FileUploadController::class, 'getVideoUploadForm'])->name('get.video.upload');
 Route::post('video-upload', [FileUploadController::class, 'uploadVideo'])->name('store.video');
+=======
+
+Route::get('/explore', [ExploreController::class, 'index']);
+Route::get('/about', [AboutController::class, 'index']);
+
+
+
+
+>>>>>>> 6e58a1ad389ea98c413ec77ac50ba08c60068093
