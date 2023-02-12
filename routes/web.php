@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\GuestController;
+use App\Http\Controllers\VloggerController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
@@ -26,10 +26,9 @@ use App\Http\Controllers\FileUploadController;
         return view('index');
     });  
     
-Route::get('/guest', [GuestController::class, 'guest']);
+Route::get('/vlogger', [VloggerController::class, 'vlogger']);
 Route::get('/admin', [AdminController::class, 'admin']);
 
-<<<<<<< HEAD
 Route::get('/register', [RegisterController::class, 'register']);
 Route::get('/login', [LoginController::class, 'login']);
 Route::get('/home', [HomeController::class, 'home']);
@@ -39,11 +38,6 @@ Route::get('/explore', [ExploreController::class, 'explore']);
 Route::get('/about', [AboutController::class, 'about']);
 Route::get('video-upload', [FileUploadController::class, 'getVideoUploadForm'])->name('get.video.upload');
 Route::post('video-upload', [FileUploadController::class, 'uploadVideo'])->name('store.video');
-=======
-Route::get('/register', [RegisterController::class, 'index']);
-Route::get('/login', [LoginController::class, 'index']);
-Route::get('/home', [HomeController::class, 'home']);
->>>>>>> 7c94bc1eea03c47d3ded97b6e063a23f541b16f2
 
 
 Route::get('/explore', [ExploreController::class, 'index']);
