@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,7 @@
     <button onclick="location.href='{{ url('login') }}'">Login</button>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/_zsmETauihY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </body>
-=======
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
@@ -448,9 +448,6 @@
 		<script src="assets/js/app.js"></script>
 		
     </body>
->>>>>>> 7c94bc1eea03c47d3ded97b6e063a23f541b16f2
 </html>
-<<<<<<< HEAD
-=======
 
->>>>>>> 6e58a1ad389ea98c413ec77ac50ba08c60068093
+
