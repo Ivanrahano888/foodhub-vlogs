@@ -30,7 +30,7 @@ Route::get('/admin', [AdminController::class, 'admin']);
 
 Route::get('/register', [RegisterController::class, 'index']);
 Route::get('/login', [LoginController::class, 'index']);
-Route::get('/home', [HomeController::class, 'index']);
+Route::get('/home', [HomeController::class, 'home']);
 
 
 Route::get('/explore', [ExploreController::class, 'index']);
