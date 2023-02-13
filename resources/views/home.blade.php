@@ -25,7 +25,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		<meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
         <meta name="robots" content="noindex, nofollow">
-        <title>FoodHub | Homepage</title>
+        <title>FoodHub | Homepage!</title>
 		
 		<!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/ekodevs.JPG">
