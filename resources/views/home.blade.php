@@ -8,17 +8,13 @@
         <title>Siram | Homepage</title>
 		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/bowl-rice-solid-24.png">
-		
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/bowl-rice-solid-24.png">		
 		<!-- Bootstrap CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
 		<!-- Fontawesome CSS -->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-		
 		<!-- Lineawesome CSS -->
-        <link rel="stylesheet" href="assets/css/line-awesome.min.css">
-		
+        <link rel="stylesheet" href="assets/css/line-awesome.min.css">		
 		<!-- Main CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
 		
