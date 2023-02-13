@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>FoodHub Vlogs</title>
+    <title>Siram | Vlogs</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/bowl-rice-solid-24.png">
 <style>
 label {
     color: #246563;
@@ -119,11 +122,23 @@ h4{
 </style>
 </head>
 <body>
+    <!-- Loader -->
+		<div id="loader-wrapper">
+				<div id="loader">
+					<div class="loader-ellips">
+					  <span class="loader-ellips__dot"></span>
+					  <span class="loader-ellips__dot"></span>
+					  <span class="loader-ellips__dot"></span>
+					  <span class="loader-ellips__dot"></span>
+					</div>
+				</div>
+			</div>
+			<!-- /Loader -->
 <header>
     <div class="container-fluid">
         <div class="row p-3 ">
             <div class="col">
-                <img src="siram-logo.png" style="width:150px ; height: 100px; margin-top: -30px;">
+                <i class='bx bx-restaurant'></i>
             </div>
             <div class="col border border-1 rounded-pill">
                 <div class="searchbar">

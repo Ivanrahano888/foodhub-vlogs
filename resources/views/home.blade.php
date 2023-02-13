@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		<meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
         <meta name="robots" content="noindex, nofollow">
-        <title>FoodHub | Homepage</title>
-		
+        <title>Siram | Homepage</title>
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/ekodevs.JPG">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/bowl-rice-solid-24.png">
 		
 		<!-- Bootstrap CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -22,27 +22,31 @@
 		<!-- Main CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
 		
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.min.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
     </head>
     <body>
+		<!-- Loader -->
+		<div id="loader-wrapper">
+				<div id="loader">
+					<div class="loader-ellips">
+					  <span class="loader-ellips__dot"></span>
+					  <span class="loader-ellips__dot"></span>
+					  <span class="loader-ellips__dot"></span>
+					  <span class="loader-ellips__dot"></span>
+					</div>
+				</div>
+			</div>
+			<!-- /Loader -->
 		<!-- Main Wrapper -->
         <div class="main-wrapper">
-		
 			<!-- Header -->
             <div class="header">
-			
 				<!-- Logo -->
                 <div class="header-left">
-                    <a href="index.html" class="logo">
-						<img src="assets/img/logo.png" width="40" height="40" alt="">
+                    <a href="index" class="logo">
+						<img src="assets/img/siram.png" width="80" height="80" alt="">
 					</a>
                 </div>
 				<!-- /Logo -->
-				
 				<a id="toggle_btn" href="javascript:void(0);">
 					<span class="bar-icon">
 						<span></span>
@@ -50,7 +54,6 @@
 						<span></span>
 					</span>
 				</a>
-				
 				<!-- Header Title -->
                 <div class="page-title-box">
                     <h3 class="page-title">Welcome {{ Session::get('name') }}!</h3>
@@ -105,8 +108,8 @@
 							<span>Guest</span>
 						</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="profile.html">Sign in!</a>
-							<a class="dropdown-item" href="settings.html">Register</a>
+							<a class="dropdown-item" href="login">Sign in!</a>
+							<a class="dropdown-item" href="registration">Register</a>
 						</div>
 					</li>
 				</ul>
