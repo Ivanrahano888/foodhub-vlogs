@@ -16,7 +16,7 @@ use App\Http\Controllers\ExploreController;
     });  
 
 Route::get('/home', [HomeController::class, 'home']);
-Route::get('/login', [CustomAuthController::class,'login']);
+Route::get('/login', [CustomAuthController::class,'login'])->middleware('alreadyLoggedIn');
 Route::get('/registration', [CustomAuthController::class,'registration']);
 Route::post('/register-user',[CustomAuthController::class,'registerUser'])->name('register-user');
 Route::post('/login-user', [CustomAuthController::class,'loginUser'])->name('login-user');
