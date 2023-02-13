@@ -38,6 +38,7 @@ Route::get('/explore', [ExploreController::class, 'explore']);
 Route::get('/about', [AboutController::class, 'about']);
 Route::get('video-upload', [FileUploadController::class, 'getVideoUploadForm'])->name('get.video.upload');
 Route::post('video-upload', [FileUploadController::class, 'uploadVideo'])->name('store.video');
+Route::get('play-video', [FileUploadController::class, 'play-video'])->name('play.video');
 
 
 Route::get('/explore', [ExploreController::class, 'index']);
