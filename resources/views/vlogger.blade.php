@@ -5,16 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Vlogger Page</title>
 </head>
 <body>
     <div class="container p-5 m-5">
         <h1 class="fw-bold">🍜 Foodhub Vlogs</h1>
       
-    
-
-    <button onclick="location.href='{{ url('about') }}'">About our Team</button>
-    <button onclick="location.href='{{ url('explore') }}'">Explore</button>
     
     <button onclick="location.href='{{ url('login') }}'">Login</button>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/_zsmETauihY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -25,7 +21,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		<meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
         <meta name="robots" content="noindex, nofollow">
-        <title>FoodHub | Homepage</title>
+        <title>FoodHub | Vlogger Page</title>
 		
 		<!-- Favicon -->
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/ekodevs.JPG">
@@ -122,7 +118,7 @@
 						<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
 							<span class="user-img"><img src="assets/img/profiles/avatar-21.jpg" alt="">
 							<span class="status online"></span></span>
-							<span>Guest</span>
+							<span>Vlogger</span>
                             
 						</a>
 						<div class="dropdown-menu">
