@@ -69,7 +69,7 @@
 				
 				<!-- Header Title -->
                 <div class="page-title-box">
-                    <h3 class="page-title">Welcome {{ Session::get('name') }}!</h3>
+                    <h3 class="page-title">Welcome to our Team {{ Session::get('name') }}!</h3>
                 </div>
 				<!-- /Header Title -->
 				
@@ -179,9 +179,6 @@
 							<li> 
 								<a href="leads.html"><i class="la la-user-secret"></i> <span>Leads</span></a>
 							</li>
-							<li> 
-								<a href="tickets.html"><i class="la la-ticket"></i> <span>Tickets</span></a>
-							</li>
 							<li class="menu-title"> 
 								<span>HR</span>
 							</li>
@@ -195,16 +192,9 @@
 									<li><a href="user-reports.html"> User Report </a></li>
 								</ul>
 							</li>
-							<li class="menu-title"> 
-								<span>Performance</span>
-							</li>
-							<li class="menu-title"> 
-								<span>Administration</span>
-							</li>
 							
-							<li> 
-								<a href="knowledgebase.html"><i class="la la-question"></i> <span>Knowledgebase</span></a>
-							</li>
+							
+						
 							<li> 
 								<a href="activities.html"><i class="la la-bell"></i> <span>Activities</span></a>
 							</li>
@@ -216,39 +206,9 @@
 							</li>
 							<li class="menu-title"> 
 								<span>Pages</span>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-user"></i> <span> Profile </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="profile.html"> Employee Profile </a></li>
-									<li><a href="client-profile.html"> Client Profile </a></li>
-								</ul>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-key"></i> <span> Authentication </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="login.html"> Login </a></li>
-									<li><a href="register.html"> Register </a></li>
-									<li><a href="forgot-password.html"> Forgot Password </a></li>
-									<li><a href="otp.html"> OTP </a></li>
-									<li><a href="lock-screen.html"> Lock Screen </a></li>
-								</ul>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-exclamation-triangle"></i> <span> Error Pages </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="error-404.html">404 Error </a></li>
-									<li><a href="error-500.html">500 Error </a></li>
-								</ul>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-hand-o-up"></i> <span> Subscriptions </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="subscriptions.html"> Subscriptions (Admin) </a></li>
-									<li><a href="subscriptions-company.html"> Subscriptions (Company) </a></li>
-									<li><a href="subscribed-companies.html"> Subscribed Companies</a></li>
-								</ul>
-							</li>
+							</li>																																																					
+							
+							
 							<li class="submenu">
 								<a href="#"><i class="la la-columns"></i> <span> Pages </span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
@@ -266,22 +226,7 @@
 								<a href="components.html"><i class="la la-puzzle-piece"></i> <span>Components</span></a>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="la la-object-group"></i> <span> Forms </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="form-basic-inputs.html">Basic Inputs </a></li>
-									<li><a href="form-input-groups.html">Input Groups </a></li>
-									<li><a href="form-horizontal.html">Horizontal Form </a></li>
-									<li><a href="form-vertical.html"> Vertical Form </a></li>
-									<li><a href="form-mask.html"> Form Mask </a></li>
-									<li><a href="form-validation.html"> Form Validation </a></li>
-								</ul>
 							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-table"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="tables-basic.html">Basic Tables </a></li>
-									<li><a href="data-tables.html">Data Table </a></li>
-								</ul>
 							</li>
 						</ul>
 					</div>
@@ -412,6 +357,8 @@
 													<td class="text-center">
 														<a href="#" class="btn btn-sm btn-info download-offer"><span><i class="fa fa-download mr-1"></i> Download Offer</span></a>
 													</td>
+            		                                                                                                                                                                                                                                    
+
 												</tr>
 											</tbody>
 										</table>
