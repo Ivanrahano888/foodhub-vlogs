@@ -17,6 +17,7 @@ class FileUploadController extends Controller
         $this->validate($request, [
             'title' => 'required|string|max:255',
             'video' => 'required|file|mimetypes:video/mp4',
+            
         ]);
         $fileName = $request->video->getClientOriginalName();
         $filePath = 'videos/' . $fileName;
@@ -24,6 +25,9 @@ class FileUploadController extends Controller
         $isFileUploaded = Storage::disk('public')->put($filePath, file_get_contents($request->video));
 
         $url = Storage::disk('public')->url($filePath);
+
+       
+       
 
         if ($isFileUploaded) {
             $video = new Video();
@@ -38,4 +42,6 @@ class FileUploadController extends Controller
         return back()
             -with('error', 'Unexpected error occured');
     }
+    
+    
 }
