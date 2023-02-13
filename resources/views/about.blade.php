@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container p-5 m-5">
-        <h1 class="fw-bold">🍜 Foodhub Vlogs</h1>
+        <h1 class="fw-bold">🍜 Foodhub Vlogs!</h1>
       
     
     <button onclick="location.href='{{ url('login') }}'">Login</button>
